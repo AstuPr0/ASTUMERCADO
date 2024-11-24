@@ -1,0 +1,6 @@
+#imgFooter {
+    padding: 0px 30px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    object-fit: cover;
+}

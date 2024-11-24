@@ -1,0 +1,21 @@
+.elements {
+    background-color: var(--background-elements) !important;
+    color: var(--text-color-light) !important;
+}
+
+.elements .title {
+    color: var(--text-color-light) !important;
+}
+
+/* Estilo de los botones con link dentro de elementos */
+.button-custom-element {
+    color: var(--text-color) !important;
+    text-decoration: none;
+    background-color: var(--background-color) !important;
+}
+
+/* Hover de los botones con link */
+.button-custom-element:hover {
+    color: var(--text-color-light) !important;
+    background-color: var(--background-color-card) !important;
+}

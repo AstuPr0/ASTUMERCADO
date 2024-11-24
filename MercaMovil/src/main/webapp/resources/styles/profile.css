@@ -1,0 +1,35 @@
+body {
+    background-color: var(--background-color-light) !important;
+}
+
+#profile-card {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-grow-1 {
+    margin-bottom: 20px;   
+}
+
+.title{
+    font-weight: bold;
+    color: var(--text-color-light) !important;
+    margin-bottom: 10px;
+}
+
+.expired {
+    filter: grayscale(100%);
+}
+
+.small-card {
+    max-width: 200px !important;
+    max-height: 200px !important; 
+    margin: 10px 0 ;
+    text-align: center;
+}
+
+.censored {
+    filter: blur(5px);
+}

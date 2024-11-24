@@ -1,0 +1,78 @@
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    background-color: var(--background-color-card) !important;
+    color: var(--text-color-card) !important;
+    margin: 10px;
+    flex: 1 1 286px;
+    max-width: 286px !important;
+    height: 400px !important;
+    padding: 0px 0px 10px 0px !important;
+    transition: 0.5s;
+    border-radius: 0.25rem;
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.7;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-body-link {
+    text-decoration: none;
+}
+
+.card img {
+    width: 100%;
+    height: 161px;
+}
+
+.card-title {
+    color: var(--text-color-light) !important;
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--text-color-light) !important;
+    padding-top: 0px !important;
+    padding: 10px;
+}
+
+#container-filtros {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+/* Estilos específicos para el aside */
+.aside-filters {
+    background-color: var(--background-color-card) !important;
+    color: var(--text-color-card) !important;
+    border-radius: 0.25rem;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px !important;
+}
+.discount-message {
+    font-size: 1.2em;
+    color: var(--button-color) !important;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

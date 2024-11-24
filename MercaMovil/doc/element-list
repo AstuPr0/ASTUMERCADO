@@ -1,0 +1,7 @@
+com.proyecto.pw.MercaMovil
+com.proyecto.pw.MercaMovil.Controller
+com.proyecto.pw.MercaMovil.DTO
+com.proyecto.pw.MercaMovil.Model
+com.proyecto.pw.MercaMovil.Repository
+com.proyecto.pw.MercaMovil.Security
+com.proyecto.pw.MercaMovil.Service

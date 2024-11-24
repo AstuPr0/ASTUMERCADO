@@ -1,0 +1,70 @@
+body {
+    background: var(--background-color) !important;
+    color: var(--text-color-light) !important;
+}
+
+.row {
+    background: var(--background-color-light) !important;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    color: var(--text-color-light) !important;
+}
+
+a {
+    color: var(--text-color-light) !important;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.button-custom-link {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        background: var(--background-color-light) !important;
+    }
+    .row {
+        padding: 5px;
+        margin-left: 0px !important;
+    }
+
+    .form-group {
+        margin: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        padding: 5px;
+    }
+}

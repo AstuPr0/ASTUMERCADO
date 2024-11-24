@@ -1,0 +1,103 @@
+
+/* Estilo de la barra de navegación cuando se hace scroll hacia abajo */
+.scrolled {
+    position: fixed;
+    z-index: 1000;
+    background-color: var(--background-color) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Definir un estilo para la navbar en pantallas pequeñas */
+@media screen and (max-width: 992px) {
+    .header-navbar {
+        background-color: var(--background-color) !important;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+}
+
+.navbar-brand {
+    padding: 0px 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Estilo de secction button toggle */
+.section-toggle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 99%;
+}
+
+/* Estilo del button toggle */
+.btn-toggle {
+    background-color: var(--button-color) !important;
+    border: none;
+    border-radius: 20px;
+    margin: 2px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+/* Estilo de la lista de elementos de la Navbar */
+.navbar-list {
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    background-position: 20%;
+    border-radius: 10px;
+}
+
+/* Elementos de la navbar activos */
+.navbar-list .active {
+    color: var(--button-text-color) !important;
+    background-color: var(--button-color);
+    border-radius: 10px;
+    margin: 2px;
+}
+
+/* Elementod de la navbar desactivos */
+.navbar-list .inactive {
+    color: var(--title-color) !important;
+}
+
+/* Elementos de la navbar desactivos al pasar el mouse */
+.navbar-list .inactive:hover {
+    color: var(--button-color) !important;
+}
+
+/* Estilo del dropdown de la navbar */
+.dropdown-menu {
+    background-color: var(--background-color) !important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+/* Estilo de los elementos del dropdown de la navbar */
+.dropdown-menu a,
+#carrito-dropdown-lg li,
+#carrito-dropdown-sm li {
+    color: var(--title-color) !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Estilo de los elementos del dropdown de la navbar al pasar el mouse */
+.dropdown-menu a:hover,
+#carrito-dropdown-lg li:hover,
+#carrito-dropdown-sm li:hover {
+    background-color: var(--button-color) !important;
+    color: var(--button-text-color) !important;
+}

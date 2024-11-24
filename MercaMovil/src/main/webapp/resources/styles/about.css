@@ -1,0 +1,41 @@
+.scrollspy-example {
+    position: relative;
+    height: 400px;
+    overflow: auto;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.list-group-item {
+    cursor: pointer;
+}
+.list-group-item:hover {
+    background-color: #ff6600;
+    color: white;
+}
+.list-group-item.active {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    color: white;
+}
+.section-title {
+    margin-top: 20px;
+    color: #ff6600;
+}
+.container-about {
+    margin-bottom: 90px;
+}
+.header-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-section h2 {
+    font-size: 2.5rem;
+    color: #ff6600;
+    font-weight: bold;
+}
+.header-section p {
+    font-size: 1.2rem;
+    color: #555;
+}

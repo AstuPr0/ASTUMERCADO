@@ -1,0 +1,241 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --button-color: #ff8e3c;
+    --button-text-color: #0d0d0d;
+
+    /* Fondo oscuro */
+    --background-color: #dbdbdd;
+    --title-color: #0d0d0d;
+    --text-color: #2a2a2a;
+
+    /* Fondo claro */
+    --background-color-light: #fffffe;
+    --text-color-light: #2a2a2a;
+    --color-secondary: #fffffe;
+    --color-secundary-transparent: #fffffe90;
+    --color-tertiary: #2cb67d;
+
+    /* Fondo de elementos */
+    --background-elements: #2cb67d;
+    --background-color-card: #dbdbdd;
+    --text-color-card: #2a2a2a;
+
+}
+
+/* Estilo general de la página */
+body {
+    font-family: 'Poppins', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+}
+
+.style-dark {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+}
+
+.style-light {
+    background-color: var(--background-color-light) !important;
+    color: var(--text-color-light) !important;
+}
+
+.style-light-contrast {
+    background-color: var(--background-color) !important;
+    color: var(--text-color-light) !important;
+}
+
+.style-light-contrast h1,
+.style-light-contrast h2,
+.style-light-contrast h3,
+.style-light-contrast h4,
+.style-light-contrast h5,
+.style-light-contrast h6 {
+    color: var(--text-color-light) !important;
+    font-weight: bold
+}
+
+.style-light h1,
+.style-light h2,
+.style-light h3,
+.style-light h4,
+.style-light h5,
+.style-light h6 {
+    color: var(--text-color-light) !important;
+    font-weight: bold
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--title-color) !important;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.text-contrast,
+.text-contrast h1{
+    color: var(--color-secondary) !important;
+}
+
+/* Estilo para un titulo común*/
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para el contenido main */
+.principal-title {
+    text-align: center;
+    position: static;
+    padding: 10px;
+}
+
+.principal-text {
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+}
+
+.principal-text-details {
+    padding: 10px;
+    font-size: large;
+}
+
+.div-navbar {
+    height: 70px;
+}
+
+.equals-cards {
+    min-height: 70vh;
+}
+
+/* Estilo para un párrafo común*/
+.paragraph {
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+/* Estilo para aliniar los elementos en el centro */
+.centered-element {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.button-article {
+    margin: 20px 0px;
+    max-width: 100%;
+}
+
+/* Estilo de los botones con link */
+.button-custom-link {
+    color: var(--button-text-color);
+    text-decoration: none;
+    background-color: var(--button-color) !important;
+}
+
+/* Hover de los botones con link */
+.button-custom-link:hover {
+    color: var(--button-color) !important;
+    background-color: var(--button-text-color) !important;
+}
+
+.full-screen-section {
+    height: 100vh;
+    width: 100%;
+}
+
+.mid-screen-section {
+    height: 50vh;
+    width: 100%;
+}
+
+.img-toggle-productos {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/resources/img/img-not-fund.png') center / cover no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.baner-apadrinamiento {
+    width: 619px !important;
+    height: 387px !important; 
+    object-fit: cover;
+}
+
+.styled-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.styled-image:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.figure-container {
+    overflow: hidden;
+    max-width: 600px;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-scale {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.scrollable-list {
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.container-actions {
+    margin-top: 90px;
+}
+
+.container-details {
+    margin-top: 110px;
+}
+
+
+
+/* Estilo del footer */
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer i {
+    color: var(--text-color-light);
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+footer i:hover {
+    color: var(--color-secondary);
+}
